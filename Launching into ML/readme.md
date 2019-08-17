@@ -57,7 +57,21 @@
         - accuracy, presision, recall
 
 - Generalization and sampling
-    .
+    . When is the most accurate ML model not the right one to pick?
+    . Should perform good in unseen data
+    . Assess if the model is overfitting
+    . Use the validation set to know if the model has the right fit
+    . cross validation for small dataset
+    . Sampling/splitting data based on hash
+    
+    - Creating Repeatable Dataset Splits in BigQuery
+        - https://googlecoursera.qwiklabs.com/focuses/35214
+        - Comparing the spilt with rand() fnction and a hash function
+    - Steps for an ML projet
+        - explore a dataset using BigQuery and Datalab
+        - sample the dataset and create training, validation, and testing datasets for local development of TensorFlow models
+        - create a benchmark to evaluate the performance of ML against
+    
 
 
 

@@ -21,5 +21,8 @@ Core Tensorflow (Lazy evaluation programs, graphs, sessions, variables, visualiz
         . Core TF (C++)
         . CPU, GPU, TPU..
     - Lazy evalution
-        . Build the DAC and then evalute it using Sessions
+        . Build the DAG and then evalute it using Sessions
         . You need to run the graph to get the results
+    - Eager mode to evalute the result immediately
+    - Visualize the graph
+        . tf.summary.FileWriter

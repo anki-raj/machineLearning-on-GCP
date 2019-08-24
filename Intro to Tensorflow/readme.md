@@ -27,4 +27,7 @@ Core Tensorflow (Lazy evaluation programs, graphs, sessions, variables, visualiz
     - Visualize the graph
         . tf.summary.FileWriter
     - tensors, variables
-        . 
+        . A variable is a tensor whose value is initialized and then the value gets changed as a program runs.
+        . Placeholder is a container which feeds in a value to the graph at runtime.
+    - LAB (Build a graph, run, feed values, finding area of triangle using TF)
+        .  

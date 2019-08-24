@@ -26,3 +26,5 @@ Core Tensorflow (Lazy evaluation programs, graphs, sessions, variables, visualiz
     - Eager mode to evalute the result immediately
     - Visualize the graph
         . tf.summary.FileWriter
+    - tensors, variables
+        . 

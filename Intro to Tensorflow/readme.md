@@ -50,5 +50,23 @@
         - tf.feature_column (shape that the model can understand)
         - model.train(input,steps=100)
         - model.predict(predict_input_func)
-        
+    - Checkpoints
+        . To save the trained model in a folder which can be used later
+        . tf.estimator.LinearRegression(featcols, './model_trained')
+    - Lab Estimator API
+        . Read .csv data into a Pandas dataframe
+        . Implement a Linear Regression model in TensorFlow
+        . Train the model
+        . Evaluate the model
+        . Predict with the model
+        . Repeat with a Deep Neural Network model in TensorFlow
+    - Dataset API
+        . They generate input functions for Estimators.
+        . tf.data.Dataset 
+            - textLineDataset   
+            - TFRecordDataset
+            - FixedlengthRecordDataset
+        . TF creates a graph after creating a model. Dataset is useful to use batches at a time to prevent saturation of the memory.
+        . input fuunctions return TF nodes and not data
+    
         

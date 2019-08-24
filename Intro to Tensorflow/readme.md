@@ -1,11 +1,11 @@
-What will be discussed
+### What will be discussed
     - Create ML models in Tensorflow
     - Core Tensorflow: Numeric programming library
     - Tendorflow library to solve numeric problems
     - Estimator API for training, evaluating, serving ML models
     - Deploy the model on Google cloud engine
 
-Core Tensorflow (Lazy evaluation programs, graphs, sessions, variables, visualize graph, debugging)
+### Core Tensorflow (Lazy evaluation programs, graphs, sessions, variables, visualize graph, debugging)
     - TensorFlow is an open source, high performance, library for numerical computation.
         . Eg To solve partial differential equations
     - Directed Acyclic graph: Connects each node which represent mathematical operation
@@ -30,4 +30,25 @@ Core Tensorflow (Lazy evaluation programs, graphs, sessions, variables, visualiz
         . A variable is a tensor whose value is initialized and then the value gets changed as a program runs.
         . Placeholder is a container which feeds in a value to the graph at runtime.
     - LAB (Build a graph, run, feed values, finding area of triangle using TF)
-        .  
+
+### Estimator API
+    - Learn how to
+        . Create Production ready ML models
+        . Train on large Datasets that do not fit in memory
+        . Monitor tarining metrics in tensorboard
+    - High level API for production ready ML models
+        . Quick model
+        . checkpointing
+        . out-of-memory datasets
+        . train, eval, monitor
+        . distributed learning
+    - Syntax
+        - tf.estimator.Estimator.
+            (Pre-made estimator)
+            LinearRegression
+            DNNRegressor ...
+        - tf.feature_column (shape that the model can understand)
+        - model.train(input,steps=100)
+        - model.predict(predict_input_func)
+        
+        

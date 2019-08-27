@@ -68,5 +68,14 @@
             - FixedlengthRecordDataset
         . TF creates a graph after creating a model. Dataset is useful to use batches at a time to prevent saturation of the memory.
         . input fuunctions return TF nodes and not data
-    
+        . Use it when out of memory
+    - Data Parallelism
+    - TensorBoard
+        . To Evaluate during training   
+    - (LAB) Creating a distributed training TensorFlow model with Estimator API
+        . Learn the importance of watching your validation metrics while training is in progress
+        . Use the estimator.train_and_evaluate function
+
+
+
         
